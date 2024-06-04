@@ -1,14 +1,10 @@
-```
-# Startup Researcher
-=====================
+
+# Startup Researcher📑🔍
 
 ## Project Overview
--------------------
-
-Startup Researcher is an innovative tool that helps entrepreneurs and startup founders turn their business ideas into reality. This project takes an input about a business or startup idea and uses web scraping and natural language processing techniques to research and gather information on what's needed to build and launch the startup.
+Startup Researcher is an innovative tool made with the help of CrewAI that helps people to turn their business ideas into reality. This project takes an input about a business or startup idea and uses LLM along with internet access and natural language processing techniques to research and gather information on what's needed to build and launch the startup.
 
 ## How it Works
-----------------
 
 ### 1. Input
 Provide a brief description of your business or startup idea.
@@ -24,23 +20,18 @@ The tool generates a comprehensive report outlining the key findings, including:
 * Revenue models and monetization strategies
 
 ## Features
-------------
-
 * Automated research and report generation
 * Web scraping and natural language processing capabilities
-* Customizable output formats (e.g., PDF, CSV, JSON)
+* Customizable output format (eg: output.md)
 
 ## Optimization Opportunities
------------------------------
-
 This project is designed to be optimized for better performance and output. Some potential areas for improvement include:
 
 * Integrating additional data sources and APIs
 * Enhancing the natural language processing capabilities
-* Improving the report generation algorithm for more accurate and relevant results
+* Improving the report generation prompts and algorithm for more accurate and relevant results
 
-## Getting Started
--------------------
+## Getting Started💻
 
 ### 1. Clone the repository
 ```
@@ -52,23 +43,13 @@ git clone https://github.com/your-username/startup-researcher.git
 pip install -r requirements.txt
 ```
 
-### 3. Run the tool
+###3 . Required
 ```
-python startup_researcher.py
+GROQ_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXX #Inside crew.py
 ```
 
-## Contributing
---------------
-
-Contributions are welcome! If you'd like to help improve Startup Researcher, please fork the repository and submit a pull request.
-
-## License
----------
-
-Startup Researcher is licensed under the MIT License.
-
-## Acknowledgments
-----------------
-
-* [List any dependencies, libraries, or resources used in the project]
+### 4. Run the tool
 ```
+python main.py
+```
+
