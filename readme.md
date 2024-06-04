@@ -35,7 +35,7 @@ This project is designed to be optimized for better performance and output. Some
 
 ### 1. Clone the repository
 ```
-git clone https://github.com/your-username/startup-researcher.git
+git clone https://github.com/PurpleBird7613/Startup-Researcher.git
 ```
 
 ### 2. Install the required dependencies
