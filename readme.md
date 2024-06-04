@@ -43,7 +43,7 @@ git clone https://github.com/PurpleBird7613/Startup-Researcher.git
 pip install -r requirements.txt
 ```
 
-###3 . Required
+### 3 . Required
 ```
 GROQ_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXX #Inside crew.py
 ```
