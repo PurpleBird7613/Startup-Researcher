@@ -1,0 +1,18 @@
+marketer:
+  description: >
+    Analyze what the market demand for my idea which is {my_idea} so that this iconic idea gets executed.Write a detailed report with description of what the ideal customer might look for, and how to reach the widest possible audience. The report has to be concise with at least 10 bullet points and it has to address the most important areas when it comes to marketing this type of business.
+  expected_output: >
+    A detailed report with the most relevant information that you found.
+
+technologist:
+  description: >
+    Analyze how to implement {my_idea} so that this iconic idea gets executed... Write a detailed report with description of which technologies the business needs to use in order to make or produce or give High Quality Product or Services. The report has to be concise with at least 10  bullet points and it has to address the most important areas when it comes to manufacturing or service based company business.
+
+  expected_output: >
+    A detailed report with the most relevant information that you found.
+
+business_consultant:
+  description: >
+    Analyze and summarize marketing and technological report and write a detailed business plan with description of how to make or execute a sustainable and profitable {my_idea} so that this idea gets executed productively as a business. The business plan has to be concise with at least 10  bullet points, 5 goals and it has to contain a time schedule for which goal should be achieved and when.
+  expected_output: >
+    A detailed report with the most relevant information that you found.
